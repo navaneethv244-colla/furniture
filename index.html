@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fav-icon  -->
+     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHtwlVMpisOgMmodawaG57DMVGzE5EaRwN10cLJX9SHRQz8hL_nqSQFoGK&s=10" type="image/x-icon">
+    <!-- font Awsome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- bootstrap  -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      <!-- google fonts  -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <div class="bg-info p-2 text-light">
+            <marquee behavior="" direction="">
+                Extra 20% off* On All Home Products
+        </marquee>
+       </div>
+       <div>
+            <ul class="d-flex justify-content-evenly align-item-center bg-light list-unstyled">
+                <li><a href="" class="text-decoration-none text-success-emphasis">Sell on property</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Become a Franchise</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Buy in bulk</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">GIFT CARDS</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Track Your Order</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">contact</a></li>
+            </ul>
+       </div>
+    </header>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">featured</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Pricing</a>
+        </li>
+      </ul>
+      <form class="d-flex align-item-center" role="search ">
+        <input class="form-control me-2" type="search" placeholder="Search products" aria-label="Search"/>
+        <div class="d-flex align-item-center">
+            <i class="fa-solid fa-shop" style="color: rgb(155, 153, 149);"></i>
+            <i class="fa-solid fa-cart-shopping" style="color: rgb(155, 153, 149);"></i>
+            <i class="fa-solid fa-heart" style="color: rgb(155, 153, 149);"></i>
+            <i class="fa-solid fa-user" style="color: rgb(155, 153, 149);"></i>
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+<div>
+            <ul class="d-flex justify-content-evenly align-item-center bg-light list-unstyled">
+                <li><a href="" class="text-decoration-none text-success-emphasis">Furniture</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Sofas & seating</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Mattresses</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Home decor</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Furnishing</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Lamb & Lighting</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Kitchen & dinning</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Luxuary</a></li>
+                <li><a href="" class="text-decoration-none text-success-emphasis">Modular</a></li>
+                
+            </ul>
+       </div>
+       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDB8fHww" class="d-block w-100" height="600px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.orientbell.com/blog/wp-content/uploads/2024/01/850x450-Pix_3-13.jpg" class="d-block w-100" height="600px"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=900&q=80" class="d-block w-100" height="600px" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div>
+    <h2 class="text-center">Top Picks for You</h2>
+    <p class="text-center">Impressive collection for your dream house</p>
+    <div class="row">
+        <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+        <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+        <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+         <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+        <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+        <div class="col">
+            <img class="rounded-circle" src="https://woodentwist.com/cdn/shop/products/WhatsAppImage2023-03-23at1.53.07AM.jpg?v=1743297846" width="100%" alt="">
+            <h5 class="text-center">Sofa</h5>
+        </div>
+    </div>
+</div>
+<div class="accordion accordion-flush m-5" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+       1. Do you offer home delivery?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, we provide doorstep delivery for all furniture purchases. Delivery timelines may vary based on location and product availability.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       2. Can I customize furniture designs and sizes?
+
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, we offer customization options for selected products, including size, material, color, and finish.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        3. What materials are used in your furniture?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Our furniture is crafted using high quality materials such as solid wood, engineered wood, metal, glass, and premium upholstery fabrics.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseThree">
+        4. Do your products come with a warranty?
+      </button>
+    </h2>
+    <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, most of our furniture products come with a warranty covering manufacturing defects. Warranty terms vary by product.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapseThree">
+        5. How do I maintain and clean my furniture?
+      </button>
+    </h2>
+    <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Regular dusting with a soft cloth and avoiding direct sunlight or excessive moisture will help maintain the furniture's quality and appearance.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapseThree">
+       6. What payment methods do you accept?
+      </button>
+    </h2>
+    <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">We accept cash, credit cards, debit cards, UPI payments, net banking, and EMI options on eligible purchases.</div>
+    </div>
+  </div>
+</div>
+<div>
+    <h2 class="text-center"><i>ExploreEssential Home Furniture</i></h2>
+    <p class="text-center">Design your Home Decor, Your Way</p>
+    <div class="row m-3 p-5">
+      <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+ <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+ <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+ <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+    </div>
+   
+</div>
+    
+  <div class="row m-3 p-5">
+      <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+ <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+ <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+ <div class="col">
+           <div class="card" style="width: 15rem;">
+  <img src="https://www.estre.in/cdn/shop/files/2-min_d2bc49bf-1893-4118-bab5-8d0848d4d3fb.jpg?v=1743762905" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Sofa set.</p>
+  </div>
+      </div>
+</div>
+    </div>
+   
+</div>
+<section>
+      <h1 class="text-center"><i>Limited Time Deal</i></h1>
+        <div class="row">
+            <div class="col">
+                  <div class="card" style="width: 18rem;">
+  <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/furniture-super-sale-flyers-design-template-0364c5e99e83eea82377cfa48263ec2a_screen.jpg?ts=1707568298" class="card-img-top" alt="...">
+  <div class="card-body text-center">
+    <a href="#" class="btn btn-primary">Shop now</a>
+  </div>
+</div>
+            </div>
+            <div class="col">
+                  <div class="col">
+                  <div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJxltMOHYNsMoJmjeAwmL84d-tZ4OVIBmfRJnQ73EtqV5bqfQKJvAO63k&s=10" class="card-img-top" alt="...">
+  <div class="card-body text-center">
+    <a href="#" class="btn btn-primary">Shop now</a>
+  </div>
+</div>
+            </div>
+            </div>
+            <div class="col">
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUy_N8_42-5qscUx4Q8QeQkWFveKJLNulagsSwLA4dSE7EIz69v4g491M&s=10" class="card-img-top" alt="...">
+  <div class="card-body text-center">
+    <a href="#" class="btn btn-primary">Shop now</a>
+  </div>
+</div>
+            </div>
+            </div>
+            <div class="col">
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDWgAgsSC4uphQR5XCRn780dZ4UpNBXU6qk-ZCXCpcf4Br9nVxABJXiKi4&s=10" class="card-img-top" alt="...">
+  <div class="card-body text-center">
+    <a href="#" class="btn btn-primary">Shop now</a>
+  </div>
+</div>
+            </div>
+            </div>
+        </div>
+</section>
+      <section>
+        <section>
+          <h3 class="text-center mt-4">Best Furniture Shop in Thrissur,Kerala Only Furniture Shop with 5* Google Rating in Chevoor</h3>
+             <div id="reviewsCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="3500">
+  <div class="carousel-inner p-4">
+    <div class="carousel-item active">
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://cdn-icons-png.flaticon.com/512/9230/9230522.png" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Jamzad Ahammed</h6>
+                <small class="text-muted">1 week ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">Good quality products and reasonable price and good customer service.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQclDE9khdaSe24gn8oZUmmEM0xM8_qA9W26lY4ssowTw&s" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Rahul Kumar</h6>
+                <small class="text-muted">2 weeks ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">Excellent finish and quick delivery. Highly recommend for dining sets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://s3.amazonaws.com/appforest_uf/f1512936020165x278911292087286720/A.png" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Ananya Nair</h6>
+                <small class="text-muted">3 weeks ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">Best wooden collection in Thrissur. Customization came out perfectly!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://cdn-icons-png.flaticon.com/512/9230/9230531.png" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Sujith V.S</h6>
+                <small class="text-muted">1 month ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">Superb sofa quality and sturdy material. Very friendly staff support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://cdn-icons-png.flaticon.com/512/6819/6819113.png" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Fida Mohammed</h6>
+                <small class="text-muted">1 month ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">Great experience shopping here! The mattress and bed frame are top tier.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT1DG4PDW_8O7JoLbr9Wqodphebz5CTnNihQvpVgLasg&s=10" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Vishnu Prasad</h6>
+                <small class="text-muted">2 months ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">5-star experience! Wide variety of modular furniture at budget prices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 p-3 shadow-sm border-0 bg-light">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://cdn-icons-png.flaticon.com/512/9920/9920783.png" width="30px" height="30px" alt="User">
+              <div class="ms-2">
+                <h6 class="fw-bold mb-0">Meera Krishna</h6>
+                <small class="text-muted">2 months ago</small>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text text-secondary small">Beautiful designs and solid teak wood furniture. Absolutely loved it!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+            <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+    </div>
+    <!-- Left -->
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+          OUR COMPANY
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Career</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Our Stores</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Customer Stories</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Investor Relations</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+           USEFUL LINKS
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Custom Furniture</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Hotel Furniture</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Delivery Location</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">PARTNERS</h6>
+          <p>bECOME A Franchise</p>
+          <p>
+            
+            Sell on WoodStreet
+          </p>
+          <h6 class="text-uppercase fw-bold mb-4">TRUSTED BY</h6>
+          <p>QRO Ceertified</p>
+          <p>Ukcert Certified</p>
+        </div>
+        <!-- Grid column -->
+          <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">NEED HELP</h6>
+          <p>Help Center</p>
+          <p>
+            
+           Contact Us
+          </p>
+          <p>Track Your Order</p>
+          <p>Ask an Expert</p>
+          <div class="d-flex">
+                <i class="fa-brands fa-instagram" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-square-facebook" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-pinterest-p" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-linkedin" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-youtube" style="color: rgb(0, 0, 0);"></i>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+</footer>
+<!-- Footer -->
+      </section>
+</body>
+</html>
